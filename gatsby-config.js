@@ -1,40 +1,40 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://chocksy.com/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Razvan Ciocanel',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Razvan Ciocanel | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `I passionate about building useful applications.`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@chocksy`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/Chocksy`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/chocksy/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: ``,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'EpicPxls',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Digital marketplace that is easy to use and reliable. I built this with my colleagues at EpicCoders using Ruby on Rails.',
+        link: 'https://www.epicpxls.com',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Hubstaff',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'The payroll & billing part of the application has been my task. It is great to see the team grow and evolve over the years.',
+        link: 'https://hubstaff.com',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Hubstaff Talent',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Simple job board website with no bells and whistles.',
+        link: 'https://talent.hubstaff.com',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
