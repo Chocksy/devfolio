@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/chocksy/`,
     // Content of the About Me section
-    about: ``,
+    about: `I love investing and workin on projects that help me grow. I love starting new projects and trying he new frameworks that show up. I have worked with PHP, Rails, React, Vue, Angular, Swift and a lot more to just get different perspectives on all the approaches these take.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -40,27 +40,22 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'EpicCoders',
+        description: 'Co-Founder, Oct 2021 - Present',
+        link: 'https://epiccoders.co',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
+        name: 'Hubstaff',
+        description: 'Senior Full Stack Developer (Ruby on Rails + Vue.js), Jun 2014 - Present',
+        link: 'https://hubstaff.com',
+      }
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), Node.js, Express.js, React, Ruby on Rails, PHP, Vue.js',
       },
       {
         name: 'Databases',
