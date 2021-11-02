@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Razvan Ciocanel',
     // Main Site Title
-    title: `Razvan Ciocanel | Full-Stack Developer`,
+    title: `Răzvan Ciocănel | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `I passionate about building useful applications.`,
+    description: `Founder of <a class=" text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400" href="https://www.epicpxls.com">@epicpxls</a>, <a class=" text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400" href="http://epiccoders.co">@epiccoders</a> | Developer and architect <a class=" text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400" href="https://hubstaff.com">@hubstaff</a>`,
     // Optional: Twitter account handle
     author: `@chocksy`,
     // Optional: Github account URL
@@ -23,13 +23,13 @@ module.exports = {
       {
         name: 'EpicPxls',
         description:
-          'Digital marketplace that is easy to use and reliable. I built this with my colleagues at EpicCoders using Ruby on Rails.',
+          'Rails Developer, Ruby on Rails, Javascript, SCSS · We share free design resources and premium icons and ui kits that we at EpicCoders make.',
         link: 'https://www.epicpxls.com',
       },
       {
         name: 'Hubstaff',
         description:
-          'The payroll & billing part of the application has been my task. I learned to work with large teams and follow a sprint schedule.',
+          'Lead developer, Ruby on Rails, Vue.Js, PostgreSQL · I created the payroll system as a main feature. I refactored the code to help with the growth of the team.',
         link: 'https://hubstaff.com',
       },
       {
@@ -42,7 +42,7 @@ module.exports = {
     experience: [
       {
         name: 'EpicCoders',
-        description: 'Co-Founder, Oct 2021 - Present',
+        description: 'Co-Founder, Oct 2012 - Present',
         link: 'https://epiccoders.co',
       },
       {
@@ -123,8 +123,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `devfolio`,
-        short_name: `devfolio`,
+        name: `chocksy-portfolio`,
+        short_name: `chocksy-portfolio`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
