@@ -14,8 +14,10 @@ module.exports = {
     github: `https://github.com/Chocksy`,
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/chocksy/`,
+    // Optional: AngelList account URL
+    angellist: `https://angel.co/u/chocksy`,
     // Content of the About Me section
-    about: `I love investing and workin on projects that help me grow. I love starting new projects and trying he new frameworks that show up. I have worked with PHP, Rails, React, Vue, Angular, Swift and a lot more to just get different perspectives on all the approaches these take.`,
+    about: `I love investing and working on projects that help me grow. As a developer starting new projects and trying the new frameworks that show up is my go-to thing. I have worked with PHP, Rails, React, Vue, Angular, Swift, and a lot more to get different perspectives on all the approaches they take. As an investor, the idea I go for is to invest in companies that I am eager to follow. I will always try to use their product first and base my investment on the impression I get. I'm a very long-term investor. I'm always thinking in decades. `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -27,13 +29,12 @@ module.exports = {
       {
         name: 'Hubstaff',
         description:
-          'The payroll & billing part of the application has been my task. It is great to see the team grow and evolve over the years.',
+          'The payroll & billing part of the application has been my task. I learned to work with large teams and follow a sprint schedule.',
         link: 'https://hubstaff.com',
       },
       {
         name: 'Hubstaff Talent',
-        description:
-          'Simple job board website with no bells and whistles.',
+        description: 'Simple job board website with no bells and whistles.',
         link: 'https://talent.hubstaff.com',
       },
     ],
@@ -46,9 +47,10 @@ module.exports = {
       },
       {
         name: 'Hubstaff',
-        description: 'Senior Full Stack Developer (Ruby on Rails + Vue.js), Jun 2014 - Present',
+        description:
+          'Senior Full Stack Developer (Ruby on Rails + Vue.js), Jun 2014 - Present',
         link: 'https://hubstaff.com',
-      }
+      },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
