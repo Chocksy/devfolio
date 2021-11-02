@@ -17,7 +17,7 @@ module.exports = {
     // Optional: AngelList account URL
     angellist: `https://angel.co/u/chocksy`,
     // Content of the About Me section
-    about: `I love investing and working on projects that help me grow. As a developer starting new projects and trying the new frameworks that show up is my go-to thing. I have worked with PHP, Rails, React, Vue, Angular, Swift, and a lot more to get different perspectives on all the approaches they take. As an investor, the idea I go for is to invest in companies that I am eager to follow. I will always try to use their product first and base my investment on the impression I get. I'm a very long-term investor. I'm always thinking in decades. `,
+    about: `I love investing 💸 and working on projects that help me grow. As a developer🧑‍💻 starting new projects and trying the new frameworks that show up is my go-to thing. I have worked with PHP, Rails, React, Vue, Angular, Swift, and a lot more to get different perspectives on all the approaches they take. As an investor, the idea I go for is to invest in companies that I am eager to follow. I will always try to use their product first and base my investment on the impression I get. I'm a very long-term investor. I'm always thinking in decades. `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
