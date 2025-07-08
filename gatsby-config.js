@@ -37,6 +37,12 @@ module.exports = {
         description: 'Simple job board website with no bells and whistles.',
         link: 'https://talent.hubstaff.com',
       },
+      {
+        name: 'AI Standups',
+        description:
+          'Asynchronous daily stand-ups powered by AI that help distributed teams share updates, surface blockers and get auto-generated summaries — all inside Slack.',
+        link: 'https://ai-standups.com',
+      },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
