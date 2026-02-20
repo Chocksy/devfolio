@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Răzvan Ciocănel | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Founder of <a class=" text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400" href="https://www.epicpxls.com">@epicpxls</a>, <a class=" text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400" href="http://epiccoders.co">@epiccoders</a> | Developer and architect <a class=" text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400" href="https://hubstaff.com">@hubstaff</a>`,
+    description: `AI Toolmaker | Lead Dev at <a class=" text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400" href="https://hubstaff.com">@hubstaff</a> | Founder of <a class=" text-gray-600 hover:text-black dark:text-gray-100 dark:hover:text-blue-400" href="https://github.com/EpicCoders">@epiccoders</a>`,
     // Optional: Twitter account handle
     author: `@chocksy`,
     // Optional: Github account URL
@@ -17,31 +17,38 @@ module.exports = {
     // Optional: AngelList account URL
     angellist: `https://angel.co/u/chocksy`,
     // Content of the About Me section
-    about: `I love investing 💸 and working on projects that help me grow. As a developer🧑‍💻 starting new projects and trying the new frameworks that show up is my go-to thing. I have worked with PHP, Rails, React, Vue, Angular, Swift, and a lot more to get different perspectives on all the approaches they take. As an investor, the idea I go for is to invest in companies that I am eager to follow. I will always try to use their product first and base my investment on the impression I get. I'm a very long-term investor. I'm always thinking in decades. `,
+    about: `Building tools that make developers and AI agents work better together. By day I lead development at <a href="https://hubstaff.com">Hubstaff</a>. By night I build AI developer tools like <a href="https://getcems.com">CEMS</a> (persistent memory for coding assistants) and <a href="https://ai-standups.com">AI Standups</a>. I've worked with Python, TypeScript, Ruby, Rails, React, Vue, and more — always picking the right tool for the job. Co-founder of <a href="https://github.com/EpicCoders">EpicCoders</a>.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
+        name: 'CEMS',
+        description:
+          'Persistent memory for AI coding assistants — Claude Code, Cursor, Codex, and Goose remember decisions, preferences, and context across sessions.',
+        link: 'https://getcems.com',
+      },
+      {
+        name: 'Gooseherd',
+        description:
+          'Self-hosted AI coding agent orchestrator — herds Goose agents via Slack and opens PRs automatically.',
+        link: 'https://goose-herd.com',
+      },
+      {
+        name: 'AI Standups',
+        description:
+          'Asynchronous daily stand-ups powered by AI — collect updates in Slack, surface blockers, and get auto-generated summaries.',
+        link: 'https://ai-standups.com',
+      },
+      {
         name: 'EpicPxls',
         description:
-          'Rails Developer, Ruby on Rails, Javascript, SCSS · We share free design resources and premium icons and ui kits that we at EpicCoders make.',
+          'Design resources marketplace — free and premium icons, UI kits, and templates for developers and designers.',
         link: 'https://www.epicpxls.com',
       },
       {
         name: 'Hubstaff',
         description:
-          'Lead developer, Ruby on Rails, Vue.Js, PostgreSQL · I created the payroll system as a main feature. I refactored the code to help with the growth of the team.',
+          'Lead developer — built the payroll system, scaled the codebase with Ruby on Rails, Vue.js, and PostgreSQL.',
         link: 'https://hubstaff.com',
-      },
-      {
-        name: 'Hubstaff Talent',
-        description: 'Simple job board website with no bells and whistles.',
-        link: 'https://talent.hubstaff.com',
-      },
-      {
-        name: 'AI Standups',
-        description:
-          'Asynchronous daily stand-ups powered by AI that help distributed teams share updates, surface blockers and get auto-generated summaries — all inside Slack.',
-        link: 'https://ai-standups.com',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -63,16 +70,21 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Node.js, Express.js, React, Ruby on Rails, PHP, Vue.js',
+          'Python, TypeScript, Ruby on Rails, JavaScript (ES6+), Node.js, React, Vue.js',
+      },
+      {
+        name: 'AI & Infrastructure',
+        description:
+          'Claude Code, MCP servers, pgvector, OpenRouter, LLM pipelines, embeddings',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'PostgreSQL, MongoDB, MySQL',
       },
       {
-        name: 'Other',
+        name: 'DevOps',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Cloudflare Pages, Coolify, CI/CD, Microservices, API design',
       },
     ],
   },
