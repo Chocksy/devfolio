@@ -39,6 +39,12 @@ module.exports = {
         link: 'https://ai-standups.com',
       },
       {
+        name: 'Tapselo',
+        description:
+          'Point of sale for grocery stores — works offline, with fiscal receipts, integrated scale, and smart reports. Set up in 20 minutes on any computer.',
+        link: 'https://tapselo.com',
+      },
+      {
         name: 'EpicPxls',
         description:
           'Design resources marketplace — free and premium icons, UI kits, and templates for developers and designers.',
