@@ -76,9 +76,14 @@ exports.createSchemaCustomization = ({ actions }) => {
       linkedin: String
       angellist: String
       about: String
-      projects: [SectionItem]
+      projectGroups: [ProjectGroup]
       experience: [SectionItem]
       skills: [SectionItem]
+    }
+
+    type ProjectGroup {
+      title: String!
+      items: [SectionItem]
     }
 
     type SectionItem {
