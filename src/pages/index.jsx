@@ -14,7 +14,7 @@ import SEO from '../components/seo';
 
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
-  const projects = get(data, 'site.siteMetadata.projects', false);
+  const projectGroups = get(data, 'site.siteMetadata.projectGroups', false);
   const posts = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
@@ -25,7 +25,9 @@ const Index = ({ data }) => {
       <SEO />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
-      {projects && projects.length && <SectionProjects projects={projects} />}
+      {projectGroups && projectGroups.length && (
+        <SectionProjects projectGroups={projectGroups} />
+      )}
       <SectionAIStandups />
       {!noBlog && <SectionBlog posts={posts} />}
       {experience && experience.length && (
@@ -50,10 +52,13 @@ export const pageQuery = graphql`
         github
         linkedin
         angellist
-        projects {
-          name
-          description
-          link
+        projectGroups {
+          title
+          items {
+            name
+            description
+            link
+          }
         }
         experience {
           name

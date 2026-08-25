@@ -18,43 +18,61 @@ module.exports = {
     angellist: `https://angel.co/u/chocksy`,
     // Content of the About Me section
     about: `Building tools that make developers and AI agents work better together. By day I lead development at <a href="https://hubstaff.com">Hubstaff</a>. By night I build AI developer tools like <a href="https://getcems.com">CEMS</a> (persistent memory for coding assistants) and <a href="https://ai-standups.com">AI Standups</a>. I've worked with Python, TypeScript, Ruby, Rails, React, Vue, and more — always picking the right tool for the job. Co-founder of <a href="https://github.com/EpicCoders">EpicCoders</a>.`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
+    projectGroups: [
       {
-        name: 'CEMS',
-        description:
-          'Persistent memory for AI coding assistants — Claude Code, Cursor, Codex, and Goose remember decisions, preferences, and context across sessions.',
-        link: 'https://getcems.com',
+        title: 'Builder tools',
+        items: [
+          {
+            name: 'Nodlock',
+            description:
+              'Approve Mac security prompts from your iPhone.',
+            link: 'https://nodlock.com',
+          },
+          {
+            name: 'CEMS',
+            description:
+              'Persistent memory for AI coding assistants — Claude Code, Cursor, Codex, and Goose remember decisions, preferences, and context across sessions.',
+            link: 'https://getcems.com',
+          },
+          {
+            name: 'Gooseherd',
+            description:
+              'Self-hosted AI coding agent orchestrator — herds Goose agents via Slack and opens PRs automatically.',
+            link: 'https://goose-herd.com',
+          },
+          {
+            name: 'Depsec',
+            description: 'Supply chain scanner, single binary.',
+            link: 'https://depsec.dev',
+          },
+          {
+            name: 'AI Standups',
+            description:
+              'Asynchronous daily stand-ups powered by AI — collect updates in Slack, surface blockers, and get auto-generated summaries.',
+            link: 'https://ai-standups.com',
+          },
+        ],
       },
       {
-        name: 'Gooseherd',
-        description:
-          'Self-hosted AI coding agent orchestrator — herds Goose agents via Slack and opens PRs automatically.',
-        link: 'https://goose-herd.com',
+        title: 'Design',
+        items: [
+          {
+            name: 'EpicPxls',
+            description:
+              'Marketplace for UI kits, fonts, and templates. Also includes AI Photo Studio at https://www.epicpxls.com/ai for birthday posters, coloring pages, and headshots, plus free tools including cake-topper STL.',
+            link: 'https://www.epicpxls.com',
+          },
+        ],
       },
       {
-        name: 'AI Standups',
-        description:
-          'Asynchronous daily stand-ups powered by AI — collect updates in Slack, surface blockers, and get auto-generated summaries.',
-        link: 'https://ai-standups.com',
-      },
-      {
-        name: 'Tapselo',
-        description:
-          'Point of sale for grocery stores — works offline, with fiscal receipts, integrated scale, and smart reports. Set up in 20 minutes on any computer.',
-        link: 'https://tapselo.com',
-      },
-      {
-        name: 'EpicPxls',
-        description:
-          'Design resources marketplace — free and premium icons, UI kits, and templates for developers and designers.',
-        link: 'https://www.epicpxls.com',
-      },
-      {
-        name: 'Hubstaff',
-        description:
-          'Lead developer — built the payroll system, scaled the codebase with Ruby on Rails, Vue.js, and PostgreSQL.',
-        link: 'https://hubstaff.com',
+        title: 'Local business',
+        items: [
+          {
+            name: 'Tapselo',
+            description: 'Point of sale for grocery stores in Romania.',
+            link: 'https://tapselo.com',
+          },
+        ],
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
